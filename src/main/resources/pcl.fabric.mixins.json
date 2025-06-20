@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "io.github.pcl_community.pcl_fabric.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+    ],
+    "client": [
+        "TitleScreenMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

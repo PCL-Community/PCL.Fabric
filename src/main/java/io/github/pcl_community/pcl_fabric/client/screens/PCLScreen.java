@@ -4,7 +4,7 @@ import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.text.Text;
 
 public class PCLScreen extends Screen {
-    protected PCLScreen(Text title) {
-        super(title);
+    public PCLScreen() {
+        super(Text.of("Plain Craft Launcher II"));
     }
 }

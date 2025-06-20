@@ -7,7 +7,7 @@
     "authors": [],
     "contact": {},
     "license": "All-Rights-Reserved",
-    "icon": "assets/pcl/icon.png",
+    "icon": "icon.png",
     "environment": "client",
     "entrypoints": {
         "client": [
@@ -17,6 +17,9 @@
             "io.github.pcl_community.pcl_fabric.PCLFabric"
         ]
     },
+    "mixins": [
+        "pcl.fabric.mixins.json"
+    ],
     "depends": {
         "fabricloader": ">=${loader_version}",
         "fabric": "*",
